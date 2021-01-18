@@ -39,9 +39,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
 <nav>
     <ul class="navbar navbar-light bg-light">
-        <a class="nav-link navbar-brand" href="#"><?= $this->fetch('title') ?></a>
+        <a class="nav-link navbar-brand" href="#">BB Listings</a>
 
       <a class="nav-link" rel="noopener" href="/myBlog">Home</a>
+      <a class="nav-link" rel="noopener" href="/myBlog"><?= 
+      $this->Html->link('Create Listing', '/posts/create') ?></a>
       <a class="nav-link" target="_blank" rel="noopener" href="https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/08/gettyimages-6369412861.jpg?quality=90&strip=all&zoom=1&resize=540%2C360&ssl=1">Peace</a>
     </ul>
 </nav>
